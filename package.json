@@ -1,0 +1,25 @@
+{
+  "name": "vite-project",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite-ssg build",
+    "preview": "vite preview",
+    "serve": "npx http-server dist"
+  },
+  "dependencies": {
+    "@vueuse/core": "^7.5.4",
+    "@vueuse/head": "^0.7.5",
+    "pinia": "^2.0.9",
+    "vite-plugin-pages": "^0.20.0",
+    "vite-ssg": "0.17.4",
+    "vue": "^3.2.25",
+    "vue-router": "^4.0.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.0.0",
+    "typescript": "^4.4.4",
+    "vite": "^2.7.2",
+    "vue-tsc": "^0.29.8"
+  }
+}
